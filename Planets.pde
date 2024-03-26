@@ -1,13 +1,14 @@
 ArrayList<Planet> planets;
 
 float density = 100;
-float G = 0.0005;
+float G = 0.03;
 
 
 PVector gravVector;
 
 void setup() {
   size(1000, 800);
+  frameRate(2);
 
   planets = new ArrayList<Planet>();
 }
